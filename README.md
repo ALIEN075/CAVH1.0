@@ -1,7 +1,7 @@
 # CAVH1.0
 
 ### China’s Annual Vegetation Height Maps, 2015–2024
-<img width="721" height="532" alt="image" src="https://github.com/user-attachments/assets/7c890304-a735-4edf-a8bf-2527ae72263f" />
+<img width="1082" height="798" alt="image" src="https://github.com/user-attachments/assets/7c890304-a735-4edf-a8bf-2527ae72263f" />
 
 > **CAVH1.0** provides annual vegetation height maps for China from 2015 to 2024. This repository presents a modular workflow for national-scale vegetation height estimation, including model training, tile-level prediction, mosaic generation, and time-series post-processing.
 ---
