@@ -19,7 +19,7 @@ flowchart LR
 
 ## 1. Model training
 
-The model combines a U-Net with a Swin Transformer architecture and is implemented in [`U_Swin_Net.py`](U_Swin_Net.py). To support unified height estimation across low-stature vegetation and trees, we employ a **Scale-Distribution Balanced (SDB) loss** that integrates normalized Huber loss with **Label Distribution Smoothing (LDS)**.
+The model combines a U-Net with a Swin Transformer architecture and is implemented in [`U_swin_Net.py`](U_swin_Net.py). To support unified height estimation across low-stature vegetation and trees, we employ a **Scale-Distribution Balanced (SDB) loss** that integrates normalized Huber loss with **Label Distribution Smoothing (LDS)**.
 
 The training workflow is implemented in [`trainmodel.py`](trainmodel.py), while the loss function is defined in [`SDB_loss.py`](SDB_loss.py).
 
